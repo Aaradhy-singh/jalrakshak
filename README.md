@@ -36,8 +36,9 @@ To maintain uncompromising ethical and civic standards, JalRakshak enforces stri
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack & Tooling
 
+- **AI Prototyping & Pair Programming**: **IBM Bob** (IBM SkillsBuild AI Assistant) — used for architectural ideation, TypeScript interface generation, prompt design for civic data schemas, and Responsible AI alignment.
 - **Core**: [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - **Build Tool**: [Vite](https://vitejs.dev/) (Vite 6)
 - **Routing**: [React Router v7](https://reactrouter.com/) (Client-side SPA)
@@ -146,4 +147,4 @@ The interactive base map utilizes map tiles and geospatial data provided by [Ope
 
 ## 📜 Academic Attribution & Project Scope
 Developed as an academic portfolio project for the **1M1B–IBM SkillsBuild AI for Sustainability Virtual Internship**.
-All architectural concepts, design tokens, and frontend code represent original work completed within this internship track.
+All architectural concepts, design tokens, and frontend code represent original work completed within this internship track, scaffolded and accelerated with the assistance of **IBM Bob** for prototyping, data schema planning, and ethical governance alignment.

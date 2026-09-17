@@ -51,9 +51,13 @@ export const AboutPage: React.FC = () => {
               <p className="text-sm sm:text-base text-[#9BB0AC] leading-relaxed mb-4">
                 This project was created as a portfolio contribution for the <strong>1M1B–IBM SkillsBuild AI for Sustainability Virtual Internship</strong>. The internship challenges young technologists to envision ethical, technology-driven solutions addressing United Nations Sustainable Development Goals (SDG 6: Clean Water and Sanitation, and SDG 11: Sustainable Cities and Communities).
               </p>
-              <div className="p-4 rounded-xs bg-[#0A1E2C] border border-[#1B394E] text-xs text-[#9BB0AC] leading-relaxed">
-                <strong className="text-[#EEF2F1] block mb-1">Authentic Attribution Note:</strong>
-                All architectural concepts, frontend implementations, and civic research frameworks represent direct work completed within this internship track. Tools and dependencies utilized are documented accurately below.
+              <div className="p-4 rounded-xs bg-[#0A1E2C] border border-[#1B394E] text-xs text-[#9BB0AC] leading-relaxed space-y-2">
+                <div className="flex items-center gap-2 text-[#F6C667] font-semibold">
+                  <span>🤖 Assisted by IBM Bob &amp; IBM SkillsBuild</span>
+                </div>
+                <p>
+                  Development and ideation were accelerated using <strong>IBM Bob</strong> (the AI assistive coding environment provided under the IBM SkillsBuild curriculum). IBM Bob supported project scoping, rapid TypeScript interface scaffolding, and formulating our 4-pillar Responsible AI governance framework.
+                </p>
               </div>
             </GhatStepBand>
 
@@ -73,24 +77,24 @@ export const AboutPage: React.FC = () => {
               </p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-[#9BB0AC]" role="list">
                 <li className="p-3 rounded-xs bg-[#0A1E2C] border border-[#1B394E]">
+                  <strong className="text-[#EEF2F1] block">IBM Bob AI Assistive Tooling</strong>
+                  Used for initial prompt engineering, data schema scaffolding (`types/index.ts`), and ethical governance alignment.
+                </li>
+                <li className="p-3 rounded-xs bg-[#0A1E2C] border border-[#1B394E]">
                   <strong className="text-[#EEF2F1] block">React 18 &amp; TypeScript</strong>
-                  Strongly-typed component architecture ensuring strict modularity and state safety.
+                  Strict type safety with explicit type definitions for every locality, river stage reading, and air quality index.
                 </li>
                 <li className="p-3 rounded-xs bg-[#0A1E2C] border border-[#1B394E]">
-                  <strong className="text-[#EEF2F1] block">React Three Fiber &amp; Three.js</strong>
-                  Procedural 3D hero scene with zero imported 3D assets, no stock photos, and graceful CSS/SVG fallback.
+                  <strong className="text-[#EEF2F1] block">Tailwind CSS v4 &amp; Vite 6</strong>
+                  Sub-second HMR and a custom color token system reflecting the natural hues of the Kashi riverfront.
                 </li>
                 <li className="p-3 rounded-xs bg-[#0A1E2C] border border-[#1B394E]">
-                  <strong className="text-[#EEF2F1] block">Tailwind CSS</strong>
-                  Custom Varanasi-inspired design tokens: Ganga Night, River Teal, Marigold, Diya, and Mist.
+                  <strong className="text-[#EEF2F1] block">Three.js &amp; React Three Fiber</strong>
+                  Living water surface shader running procedurally with zero external asset bloat and full prefers-reduced-motion compliance.
                 </li>
                 <li className="p-3 rounded-xs bg-[#0A1E2C] border border-[#1B394E]">
                   <strong className="text-[#EEF2F1] block">Framer Motion &amp; Accessibility</strong>
                   Subtle, respectful micro-interactions with full support for prefers-reduced-motion and WCAG AA contrast.
-                </li>
-                <li className="p-3 rounded-xs bg-[#0A1E2C] border border-[#1B394E]">
-                  <strong className="text-[#EEF2F1] block">Leaflet &amp; OpenStreetMap</strong>
-                  Interactive base map rendering six Varanasi civic focus areas with zero proprietary tracking.
                 </li>
               </ul>
             </GhatStepBand>
@@ -157,7 +161,7 @@ export const AboutPage: React.FC = () => {
                 Honest Disclosure
               </h3>
               <p className="text-xs text-[#9BB0AC] leading-relaxed">
-                JalRakshak does not make unsupported claims. Third-party platforms or commercial AI systems are not claimed unless explicitly integrated, verified, and audited.
+                JalRakshak practices rigorous transparency. Development was scaffolded using IBM Bob for architectural ideation and schema formulation, while production data relies on verified public APIs and open standards.
               </p>
             </div>
 
